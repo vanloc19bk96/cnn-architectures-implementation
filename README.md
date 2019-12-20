@@ -11,5 +11,5 @@ This repository contains popular CNN models used Tensorflow v2
 
 ### Architecture ###
 
-![alt text](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/tree/master/images)
+![alt text](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/tree/master/images.resneXt.PNG)
 
