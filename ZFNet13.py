@@ -22,6 +22,7 @@ def zfnet13(input_x):
 	x = Conv2D(filters=256, kernel_size=(3, 3), strides=1, use_bias=False, activation="relu", padding="SAME")(x)
 	x = MaxPool2D(pool_size=(3, 3), strides=2)(x)
 	x = Flatten()(x)
+	print(x)
 	# fc
 	x = Dense(units=4096, activation="relu", use_bias=False)(x)
 	x = Dropout(0.5)(x)
@@ -31,7 +32,7 @@ def zfnet13(input_x):
 	return x
 
 input_x = Input(shape=(image_size, image_size, chanel))
-alexnet = alexnet12(input_x)
+alexnet = zfnet13(input_x)
 
 model = Model(inputs=input_x, outputs=alexnet)
 model.summary()
