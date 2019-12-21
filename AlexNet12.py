@@ -18,7 +18,7 @@ def alexnet12(input_x):
 	x = BatchNormalization()(x)
 
 	# third layer
-	x = Conv2D(filters=384, kernel_size=(3, 3), strides=1, use_bias=False, activation="relu", padding="valid")(x)
+	x = Conv2D(filters=384, kernel_size=(3, 3), strides=1, use_bias=False, activation="relu", padding="same")(x)
 	x = ZeroPadding2D(padding=(1, 1))(x)
 	x = Conv2D(filters=384, kernel_size=(3, 3), strides=1, use_bias=False, activation="relu", padding="valid")(x)
 	x = ZeroPadding2D(padding=(1, 1))(x)
@@ -39,4 +39,4 @@ input_x = Input(shape=(image_size, image_size, chanel))
 alexnet = alexnet12(input_x)
 
 model = Model(inputs=input_x, outputs=alexnet)
-model.summary()
+# model.summary()
