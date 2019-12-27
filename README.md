@@ -40,3 +40,9 @@ https://arxiv.org/pdf/1611.05431.pdf](https://arxiv.org/pdf/1611.05431.pdf
 ### Architecture ###
 ![alt text](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/images/resNext.PNG)
 
+## [UNet](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/Unet.py) ##
+### Paper ###
+https://arxiv.org/pdf/1505.04597.pdf
+### Architecture ###
+![alt text](/images/unet.png)
+
