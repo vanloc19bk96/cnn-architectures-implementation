@@ -38,7 +38,7 @@ https://arxiv.org/pdf/1409.1556.pdf
 ### Paper ###
 https://arxiv.org/pdf/1409.4842.pdf
 ### Architecture ###
-Because the image is small. Please refers the paper figure 3
+![alt text](/images/inceptionv1.png)
 
 ## [ResNeXt50](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/resneXt50.py) ##
 ### Paper ##
