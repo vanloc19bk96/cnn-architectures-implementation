@@ -34,6 +34,12 @@ https://arxiv.org/pdf/1409.1556.pdf
 ### Architecture ###
 ![alt text](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/images/vgg19.png)
 
+## [InceptionV1](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/InceptionV1.py) ##
+### Paper ###
+https://arxiv.org/pdf/1409.4842.pdf
+### Architecture ###
+Because the image is small. Please refers the paper figure 3
+
 ## [ResNeXt50](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/resneXt50.py) ##
 ### Paper ##
 https://arxiv.org/pdf/1611.05431.pdf
