@@ -38,7 +38,7 @@ https://arxiv.org/pdf/1409.1556.pdf
 ### Paper ###
 https://arxiv.org/pdf/1409.4842.pdf
 ### Architecture ###
-![alt text](/images/inceptionv1.png)
+![alt text](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/images/inceptionv1.PNG)
 
 ## [ResNeXt50](https://github.com/vanloc19bk96/cnn_model_dl_tfv2/blob/master/resneXt50.py) ##
 ### Paper ##
